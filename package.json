@@ -1,0 +1,44 @@
+{
+  "name": "project-tinker",
+  "private": true,
+  "description": "Project Tinker is a Bangalore based website & app development company that provides quality products with top-notch delivery pipelines and customer service.",
+  "version": "0.1.0",
+  "author": "Project Tinker <contact@project-tinker.com>",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "gatsby": "^2.24.83",
+    "gatsby-plugin-material-ui": "^2.1.10",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "printWidth": 120
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/project-tinker/gatsby-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/project-tinker/gatsby-starter/issues"
+  }
+}
